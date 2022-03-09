@@ -1,0 +1,32 @@
+#brandName{
+    font-family: 'Oleo Script', cursive;
+    font-size: 25px;
+    color: grey;
+}
+
+.Pagination{ margin-top: 55px;}
+
+#th,
+#square{
+    font-size: 9px; 
+    margin-bottom: 0.2cm;
+}
+
+header{background-color: white;}
+
+#muroBody{ background-color: gainsboro;}
+
+.card{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 1.5cm;
+    /* padding-bottom: 0.2cm; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.card i{color: grey;}
+
+input{
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
