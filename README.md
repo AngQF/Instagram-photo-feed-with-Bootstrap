@@ -24,3 +24,11 @@ $ pip3 install flask && python3 server.py
   ...
 </head>
 ```
+EXPLICACIÓN:
+Puse comentarios para separar el código y así guiarme mejor.
+
+En index.html puse todo el contenido dentro de un div container-fluid para que se extendiera a lo ancho sin márgenes. Tanto en index.html como en cards.html todo el código de navbar y pagination es el mismo; solo que en cards.html lo separé dentro del header, porque el resto del contenido no ocupaba todo el ancho de la página como en el index.html.
+
+Index.html: a las imágenes les tuve que poner una altura y ancho porque img-fluid solo ajusta el ancho y no encontré otra forma de ajustar el tamaño de la imagen como en el ejemplo.
+
+Cards.html: el contenido del header es igual que en index.html, luego utilicé cards para cada imagen. Puse un id a cada card (aunque luego no lo use en css) para poder diferenciarlas mejor.
